@@ -38,7 +38,13 @@
       <div>Selected sentence: {selectedSentence}</div>
       <div>Selected sentence length: {selectedSentenceLength}</div>
       <div>
-        <!-- Letter-by-letter analysis goes here -->
+        <template if:true={isSentenceSelected}>
+          <lightning-datatable
+            key-field="letter"
+            data={letterDataArray}
+            columns={columns}
+          ></lightning-datatable>
+        </template>
       </div>
     </div>
   </div>

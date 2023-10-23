@@ -7,6 +7,7 @@ export default class FileButton extends LightningElement {
   get selectedFileId() {
     return this._selectedFileId;
   }
+
   set selectedFileId(value) {
     this._selectedFileId = value;
     let newVariant = this.selectedFileId === this.fileData.id ? 'brand' : 'brand-outline';
