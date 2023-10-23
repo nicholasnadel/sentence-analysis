@@ -1,0 +1,143 @@
+{
+  "versionDetail": {
+    "architecture": "darwin-x64",
+    "cliVersion": "@salesforce/cli/2.13.9",
+    "nodeVersion": "node-v18.15.0",
+    "osVersion": "Darwin 23.0.0",
+    "rootPath": "/usr/local/lib/sf",
+    "shell": "zsh",
+    "pluginVersions": [
+      "@ind-rcg/modeler-sfdx-cli-plugin 246.1048.0 (user)",
+      "@oclif/plugin-autocomplete 2.3.9 (core)",
+      "@oclif/plugin-commands 2.2.28 (core)",
+      "@oclif/plugin-help 5.2.20 (core)",
+      "@oclif/plugin-not-found 2.4.3 (core)",
+      "@oclif/plugin-plugins 3.9.1 (core)",
+      "@oclif/plugin-search 0.0.23 (core)",
+      "@oclif/plugin-update 4.1.2 (user)",
+      "@oclif/plugin-version 2.0.1 (core)",
+      "@oclif/plugin-warn-if-update-available 2.1.1 (core)",
+      "@oclif/plugin-which 2.2.34 (core)",
+      "@salesforce/cli 2.13.9 (core)",
+      "apex 2.3.19 (core)",
+      "auth 2.8.20 (core)",
+      "data 2.5.16 (core)",
+      "deploy-retrieve 1.19.0 (core)",
+      "info 2.6.49 (core)",
+      "limits 2.3.38 (core)",
+      "login 1.2.35 (core)",
+      "marketplace 0.3.0 (core)",
+      "org 2.10.12 (core)",
+      "schema 2.3.29 (core)",
+      "settings 1.4.33 (core)",
+      "sobject 0.2.11 (core)",
+      "source 2.10.40 (core)",
+      "telemetry 2.3.6 (core)",
+      "templates 55.5.14 (core)",
+      "trust 2.6.18 (core)",
+      "user 2.3.36 (core)"
+    ]
+  },
+  "sfdxEnvVars": [],
+  "sfEnvVars": [
+    [
+      "SF_BINPATH",
+      "/usr/local/lib/sf/bin/sf"
+    ],
+    [
+      "SF_AUTOUPDATE_DISABLE",
+      "true"
+    ],
+    [
+      "SF_DISABLE_AUTOUPDATE",
+      "true"
+    ],
+    [
+      "SF_UPDATE_INSTRUCTIONS",
+      "Use \"npm update --global @salesforce/cli\" to update npm-based installations."
+    ]
+  ],
+  "cliConfig": {
+    "_base": "@oclif/core@3.0.3",
+    "_commands": {},
+    "_topics": {},
+    "commandPermutations": {
+      "validPermutations": {}
+    },
+    "pluginLoader": {
+      "options": {
+        "root": "/usr/local/lib/sf/dist"
+      },
+      "pluginsProvided": false,
+      "errors": [],
+      "plugins": {}
+    },
+    "topicPermutations": {
+      "validPermutations": {}
+    },
+    "arch": "x64",
+    "bin": "sf",
+    "binAliases": [
+      "sfdx"
+    ],
+    "binPath": "/usr/local/lib/sf/bin/sf",
+    "cacheDir": "/Users/nicknadel/Library/Caches/sf",
+    "channel": "stable",
+    "configDir": "/Users/nicknadel/.config/sf",
+    "dataDir": "/Users/nicknadel/.local/share/sf",
+    "debug": 0,
+    "dirname": "sf",
+    "errlog": "/Users/nicknadel/Library/Caches/sf/error.log",
+    "flexibleTaxonomy": true,
+    "home": "/Users/nicknadel",
+    "name": "@salesforce/cli",
+    "nsisCustomization": "scripts/nsis.nsi",
+    "platform": "darwin",
+    "root": "/usr/local/lib/sf",
+    "shell": "zsh",
+    "topicSeparator": " ",
+    "userAgent": "@salesforce/cli/2.13.9 darwin-x64 node-v18.15.0",
+    "valid": true,
+    "version": "2.13.9",
+    "warned": false,
+    "windows": false,
+    "nodeEngine": ">=16.0.0"
+  },
+  "pluginSpecificData": {
+    "@salesforce/plugin-source": [
+      {
+        "sourceApiVersion": "58.0",
+        "targetOrgApiVersion": "59.0"
+      }
+    ]
+  },
+  "diagnosticResults": [
+    {
+      "testName": "salesforcedx plugin not installed",
+      "status": "pass"
+    },
+    {
+      "testName": "no linked plugins",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-source] sourceApiVersion matches apiVersion",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-source] sourceApiVersion matches default target org max apiVersion",
+      "status": "warn"
+    },
+    {
+      "testName": "using latest or latest-rc CLI version",
+      "status": "pass"
+    }
+  ],
+  "suggestions": [
+    "Check https://github.com/forcedotcom/cli/issues for CLI issues posted by the community.",
+    "Check http://status.salesforce.com for general Salesforce availability and performance.",
+    "The sourceApiVersion in sfdx-project.json doesn't match the max apiVersion of the default target org. As a result, you're not using the latest features available in API version 59.0. The version mismatch isn't a problem, as long as it's the behavior you actually want."
+  ],
+  "logFilePaths": [],
+  "commandExitCode": 0
+}

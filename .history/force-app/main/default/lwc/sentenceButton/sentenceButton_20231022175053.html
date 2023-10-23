@@ -1,0 +1,7 @@
+<template>
+  <div class={cssClasses} onclick={handleClick}>
+    <template for:each={words} for:item="word">
+      <span key={word.text} class={word.isPalindrome ? 'palindrome' : ''}>{word.text}</span>
+    </template>
+  </div>
+</template>

@@ -1,0 +1,13 @@
+div {
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+div.selected {
+  color: white;
+  background-color: blue;
+}
+
+div.selected.palindrome {
+  color: green;
+}
